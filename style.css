@@ -1,0 +1,182 @@
+html {
+  background-color: #f2f2f2
+}
+
+body {
+  background-color: #fafafa;
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: sans-serif, arial, cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #404040;
+  font-family: amaranth;
+}
+
+/* HEADER */
+header {
+  height: 200px;
+  padding: 20px;
+  background-color: #e6e6e6;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  font-size: 18px;
+}
+
+header li:first-child {
+  border-right: 1px solid #373535;
+}
+
+.left {
+  width: 320px;
+  float: left;
+}
+
+.left ul {
+  padding-left: 30px;
+  padding-top: 100px;
+}
+
+.right {
+  width: 250px;
+  float: right;
+}
+
+.right ul {
+  float: right;
+  padding-right: 35px;
+  padding-top: 120px;
+  margin: 0;
+}
+
+.logo {
+  width: 320px;
+  float: left;
+  text-align: center;
+  font-size: 38px;
+  font-family: amaranth;
+  color: #4d4d4d;
+}
+
+.logo p {
+  margin: 0;
+}
+
+/* CONTENT */
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+#main {
+  background-image: url('images/backgound.jpg');
+  height: 220px;
+}
+
+#main p {
+  margin: 0;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 22px;
+  font-family: amaranth;
+  color: #333;
+}
+
+form {
+  padding-top: 30px;
+  text-align: center;
+}
+
+#email {
+  width:220px;
+  height: 25px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+#click {
+  height: 25px;
+  border-radius: 5px;
+}
+
+.cf {
+  width: 100%;
+}
+
+.box {
+  background-color: #fff;
+  position: relative;
+  float: left;
+}
+
+.box img {
+  position: relative;
+  z-index: 1;
+  margin:15px;
+  padding-top: 10px;
+}
+.box p {
+  position: absolute;
+  width: 100%;
+  top: 12px;
+  z-index: 2;
+}
+
+/* FOOTER */
+
+nav {
+  font-size: 18px;
+  text-align: center;
+}
+
+footer {
+  background-color: #f2f2f2;
+  height: 140px;
+  margin-top: 350px;
+}
+
+footer li {
+  border: 1px solid #373535;
+}
+
+footer img {
+ float:right;
+ margin: 10px;
+}
+
+footer ul {
+  float: left;
+}
